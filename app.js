@@ -1,7 +1,4 @@
-// Basic client-side sign in / sign up logic
-// - stores simple user records in localStorage under "tidal_users"
-// - provides form validation, feedback, simulated network delay
-// - toggles between Sign in / Sign up and shows a welcome view on success
+const resp = await fetch('/api/submit', { method: 'POST', body: formData });
 
 (function () {
   // --- helpers ---
@@ -264,4 +261,5 @@
 
   // run
   init();
+
 })();
